@@ -37,6 +37,6 @@ Edit
 
 ## 🙌 Credits
 
-Made with ❤️ by Piyush (and guided by ChatGPT 😄)
+Made with ❤️ by Piyush (and guided by Saikath Sardar 😄)
 
 ---

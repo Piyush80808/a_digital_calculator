@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="css/bootstrap.min.css" />
+		<title>js_template</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<div class="dd">
+			<h1 class="dancing-script-main typewriter">
+				Piyush Presents: Digital Calculator for Daily Use
+			</h1>
+			<div class="calculator-container">
+				<div class="calculator-wrapper">
+					<h1 class="calculator-title">
+						<strong>Calculator</strong>
+					</h1>
+
+					<div class="input-section">
+						<div class="number-input-group">
+							<label
+								for="num1"
+								class="input-label"
+								>First Number</label
+							>
+							<input
+								type="number"
+								id="num1"
+								class="number-input input-one"
+								placeholder="Enter first number" />
+						</div>
+
+						<div class="number-input-group">
+							<label
+								for="numOne"
+								class="input-label"
+								>Second Number</label
+							>
+							<input
+								type="number"
+								id="numTwo"
+								class="number-input input-two"
+								placeholder="Enter second number" />
+						</div>
+					</div>
+
+					<div class="operation-buttons">
+						<button
+							class="uiverse-op-btn"
+							onclick="calculate('+')">
+							+
+						</button>
+						<button
+							class="uiverse-op-btn"
+							onclick="calculate('-')">
+							−
+						</button>
+						<button
+							class="uiverse-op-btn"
+							onclick="calculate('*')">
+							×
+						</button>
+						<button
+							class="uiverse-op-btn"
+							onclick="calculate('/')">
+							÷
+						</button>
+					</div>
+
+					<div class="result-section">
+						<div
+							class="result-display"
+							id="result">
+							Total:
+						</div>
+					</div>
+
+					<div class="action-buttons">
+						<button
+							type="button"
+							class="button"
+							onclick="clearAll()">
+							<span class="fold"></span>
+							<div class="points_wrapper">
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+								<i class="point"></i>
+							</div>
+							<span class="inner">
+								<svg
+									class="icon"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2.5">
+									<polyline
+										points="13.18 1.37 13.18 9.64 21.45 9.64 10.82 22.63 10.82 14.36 2.55 14.36 13.18 1.37"></polyline>
+								</svg>
+								Clear All
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- JS -->
+		<script src="js/apps.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
